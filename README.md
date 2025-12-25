@@ -97,6 +97,7 @@ Java Development Intern
 
 🔗 GitHub Profile: https://github.com/shaz-06
 🔗 Email: shashankshetty3219.com
+🔗 LinkedIn: https://www.linkedin.com/in/shashank-shetty-070447336/
 
 ## License
 
