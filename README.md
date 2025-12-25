@@ -5,7 +5,7 @@ The application provides real-time weather data using REST APIs with secure envi
 
 ---
 
-🔗 Live Demo: https://weather-forecastingapp.vercel.app/
+🔗 Live Demo: https://weather-forecasting-seven-eosin.vercel.app/
 
 ---
 
