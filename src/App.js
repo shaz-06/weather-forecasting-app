@@ -473,8 +473,8 @@ export default function App() {
         )}
 
         <footer className="text-center py-10 text-slate-500 text-sm font-normal">
-          <p>Data provided by OpenWeatherMap API & Gemini AI</p>
-          <p className="opacity-50 mt-1">SkyCast Interface • v2.1</p>
+          <p>Data provided by OpenWeatherMap API </p>
+          <p className="opacity-50 mt-1">Weather Forecast Interface • v2.1</p>
         </footer>
       </div>
     </div>
