@@ -1,70 +1,104 @@
-# Getting Started with Create React App
+# Weather Forecasting Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A responsive weather forecasting web application developed using React.js and Tailwind CSS.  
+The application provides real-time weather data using REST APIs with secure environment variable handling.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Project Overview
 
-### `npm start`
+This Weather Forecasting Application allows users to search weather information by city name and view real-time meteorological data in a clean and responsive interface. The project demonstrates frontend development skills, API integration, and secure configuration management.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Key Features
 
-### `npm test`
+- Real-time weather data retrieval using OpenWeatherMap API
+- City-based weather search functionality
+- Temperature, humidity, and feels-like metrics
+- Wind speed and wind direction visualization
+- Sunrise and sunset time display
+- Air Quality Index (AQI) information
+- Dynamic day and night theme switching
+- Fully responsive user interface using Tailwind CSS
+- Secure API key management using environment variables
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React.js
+- JavaScript (ES6)
+- Tailwind CSS
+- OpenWeatherMap REST API
+- Lucide React Icons
+- Git and GitHub
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation Instructions
 
-### `npm run eject`
+### Prerequisites
+- Node.js (v16 or higher)
+- npm
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Setup
+bash
+git clone https://github.com/shaz-06/weather-forecasting-app.git
+cd weather-forecasting-app
+npm install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Environment Variable Configuration
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+•Create a .env file in the root directory and add:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+REACT_APP_WEATHER_API_KEY=your_api_key_here
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Note: The .env file is excluded from version control using .gitignore for security.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Running the Application
+npm start
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## The application runs locally on:
 
-### Analyzing the Bundle Size
+http://localhost:3000
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Project Structure
+weather-forecasting-app/
+├── public/
+├── src/
+│   ├── App.js
+│   ├── index.js
+│   ├── index.css
+│   └── components/
+├── .gitignore
+├── package.json
+├── tailwind.config.js
+└── postcss.config.js
 
-### Making a Progressive Web App
+## Learning Outcomes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+•Practical experience with React hooks (useState, useEffect, useMemo)
 
-### Advanced Configuration
+•REST API integration and data handling
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+•Secure environment variable usage
 
-### Deployment
+•Responsive UI development using Tailwind CSS
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+•GitHub version control best practices
 
-### `npm run build` fails to minify
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Shashank Shetty
+Java Development Intern
+
+🔗 GitHub Profile: https://github.com/shaz-06
+🔗 Email: shashankshetty3219.com
+
+## License
+
+This project is created for educational and internship evaluation purposes.
+
