@@ -5,6 +5,10 @@ The application provides real-time weather data using REST APIs with secure envi
 
 ---
 
+🔗 Live Demo: https://weather-forecastingapp.vercel.app/
+
+---
+
 ## Project Overview
 
 This Weather Forecasting Application allows users to search weather information by city name and view real-time meteorological data in a clean and responsive interface. The project demonstrates frontend development skills, API integration, and secure configuration management.
